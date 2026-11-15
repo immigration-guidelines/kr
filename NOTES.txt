@@ -1,0 +1,41 @@
+South Korea (kr) - notes on sources, checked 15 November 2026
+
+Authority: Ministry of Justice (법무부), Korea Immigration Service (출입국·외국인정책본부).
+
+USED
+1. Hi Korea notice board, https://www.hikorea.go.kr/board/BoardNtcListR.pt
+   - Pinned notice 1062 "체류자격별 통합 안내 매뉴얼(최신)":
+     https://www.hikorea.go.kr/board/BoardNtcDetailR.pt?BBS_SEQ=1&BBS_GB_CD=BS10&NTCCTT_SEQ=1062&page=1
+     Current visa manual (사증민원 자격별 안내 매뉴얼), sojourn manual (체류민원 자격별
+     안내 매뉴얼) and change log, HWP only. These are the core documents.
+     The notice is overwritten when guidelines change; only the latest edition is offered.
+   - Notices found by title search for 매뉴얼, 메뉴얼, 지침, 고시, 기준, 규정
+     (91 notices, 2010-2026): scheme manuals, guideline announcements, ministerial
+     notices and criteria. Some are short announcements of a change rather than the
+     full guideline. The date is the notice's posting date, except files named
+     YYMMDD (the manuals), which use that date. A few old notices have been
+     re-used with newer attachments (e.g. notice 208 of 2011 holds 2021/2026 files).
+   - Attachments are served only via the form post the page's own link makes
+     (/fileNewExistsChkAjax.pt), so source_url in index.tsv is the notice page.
+   - robots.txt has rules for Googlebot only (Disallow /search/, /bbs/, /oidc/,
+     /pt/main_kr.pt); nothing for other agents, and /board/ is not listed at all.
+2. law.go.kr administrative rules (행정규칙), Ministry of Justice (cptOfis=1270000):
+   https://www.law.go.kr/admRulSc.do?menuId=5&subMenuId=41&tabMenuId=183&cptOfis=1270000
+   341 rules in force; 58 selected by title keywords (immigration, visas, sojourn,
+   nationality, refugees, overseas Koreans, detention, social integration...).
+   Attached full texts saved (PDF preferred over an identically named HWP).
+   Current versions only; the site's revision history (연혁) was not harvested.
+   robots.txt: "User-agent:* Allow: /".
+
+CHECKED, NOTHING USABLE
+- www.immigration.go.kr: boards 법령 (225, legislative notices), 간행물 (226, plans and
+  yearbooks), 업무공지 (211), 새소식 (47) searched for 매뉴얼: no officer manuals
+  (only two 2020-era overseas-Korean policy leaflets). robots.txt obeyed.
+- Wayback Machine CDX for hikorea.go.kr: no archived manual files (downloads are
+  form posts), so earlier editions of the manuals could not be obtained.
+- The full internal guidelines (사증발급 지침, 체류관리 지침 / 편람) are not published;
+  the Hi Korea manuals are the public version.
+
+No 403, 429, CAPTCHA or bot check was met.
+Formats: HWP is Hancom's word-processor format (open with Hancom Office, LibreOffice
+with the H2Orestart extension, or hwp5txt from pyhwp).
